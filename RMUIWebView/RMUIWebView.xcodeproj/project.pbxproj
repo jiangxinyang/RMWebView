@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		905665231EC45952009F0EA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 905665221EC45952009F0EA4 /* main.m */; };
+		905665261EC45952009F0EA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 905665251EC45952009F0EA4 /* AppDelegate.m */; };
+		905665291EC45952009F0EA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905665281EC45952009F0EA4 /* ViewController.m */; };
+		9056652E1EC45952009F0EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9056652D1EC45952009F0EA4 /* Assets.xcassets */; };
+		905665311EC45952009F0EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9056652F1EC45952009F0EA4 /* LaunchScreen.storyboard */; };
+		9056653C1EC45952009F0EA4 /* RMUIWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9056653B1EC45952009F0EA4 /* RMUIWebViewTests.m */; };
+		905665471EC45952009F0EA4 /* RMUIWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 905665461EC45952009F0EA4 /* RMUIWebViewUITests.m */; };
+		905665551EC45BB5009F0EA4 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 905665541EC45BB5009F0EA4 /* index.html */; };
+		905665581EC45C21009F0EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905665561EC45C21009F0EA4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		905665381EC45952009F0EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905665161EC45952009F0EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9056651D1EC45952009F0EA4;
+			remoteInfo = RMUIWebView;
+		};
+		905665431EC45952009F0EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905665161EC45952009F0EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9056651D1EC45952009F0EA4;
+			remoteInfo = RMUIWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9056651E1EC45952009F0EA4 /* RMUIWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMUIWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905665221EC45952009F0EA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		905665241EC45952009F0EA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		905665251EC45952009F0EA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		905665271EC45952009F0EA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		905665281EC45952009F0EA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9056652D1EC45952009F0EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905665301EC45952009F0EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905665321EC45952009F0EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905665371EC45952009F0EA4 /* RMUIWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMUIWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9056653B1EC45952009F0EA4 /* RMUIWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMUIWebViewTests.m; sourceTree = "<group>"; };
+		9056653D1EC45952009F0EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905665421EC45952009F0EA4 /* RMUIWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMUIWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		905665461EC45952009F0EA4 /* RMUIWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMUIWebViewUITests.m; sourceTree = "<group>"; };
+		905665481EC45952009F0EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905665541EC45BB5009F0EA4 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		905665571EC45C21009F0EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9056651B1EC45952009F0EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905665341EC45952009F0EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9056653F1EC45952009F0EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		905665151EC45952009F0EA4 = {
+			isa = PBXGroup;
+			children = (
+				905665201EC45952009F0EA4 /* RMUIWebView */,
+				9056653A1EC45952009F0EA4 /* RMUIWebViewTests */,
+				905665451EC45952009F0EA4 /* RMUIWebViewUITests */,
+				9056651F1EC45952009F0EA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9056651F1EC45952009F0EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9056651E1EC45952009F0EA4 /* RMUIWebView.app */,
+				905665371EC45952009F0EA4 /* RMUIWebViewTests.xctest */,
+				905665421EC45952009F0EA4 /* RMUIWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		905665201EC45952009F0EA4 /* RMUIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				905665541EC45BB5009F0EA4 /* index.html */,
+				905665241EC45952009F0EA4 /* AppDelegate.h */,
+				905665251EC45952009F0EA4 /* AppDelegate.m */,
+				905665271EC45952009F0EA4 /* ViewController.h */,
+				905665281EC45952009F0EA4 /* ViewController.m */,
+				9056652D1EC45952009F0EA4 /* Assets.xcassets */,
+				9056652F1EC45952009F0EA4 /* LaunchScreen.storyboard */,
+				905665561EC45C21009F0EA4 /* Main.storyboard */,
+				905665321EC45952009F0EA4 /* Info.plist */,
+				905665211EC45952009F0EA4 /* Supporting Files */,
+			);
+			path = RMUIWebView;
+			sourceTree = "<group>";
+		};
+		905665211EC45952009F0EA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				905665221EC45952009F0EA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9056653A1EC45952009F0EA4 /* RMUIWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9056653B1EC45952009F0EA4 /* RMUIWebViewTests.m */,
+				9056653D1EC45952009F0EA4 /* Info.plist */,
+			);
+			path = RMUIWebViewTests;
+			sourceTree = "<group>";
+		};
+		905665451EC45952009F0EA4 /* RMUIWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				905665461EC45952009F0EA4 /* RMUIWebViewUITests.m */,
+				905665481EC45952009F0EA4 /* Info.plist */,
+			);
+			path = RMUIWebViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9056651D1EC45952009F0EA4 /* RMUIWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9056654B1EC45952009F0EA4 /* Build configuration list for PBXNativeTarget "RMUIWebView" */;
+			buildPhases = (
+				9056651A1EC45952009F0EA4 /* Sources */,
+				9056651B1EC45952009F0EA4 /* Frameworks */,
+				9056651C1EC45952009F0EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMUIWebView;
+			productName = RMUIWebView;
+			productReference = 9056651E1EC45952009F0EA4 /* RMUIWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		905665361EC45952009F0EA4 /* RMUIWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9056654E1EC45952009F0EA4 /* Build configuration list for PBXNativeTarget "RMUIWebViewTests" */;
+			buildPhases = (
+				905665331EC45952009F0EA4 /* Sources */,
+				905665341EC45952009F0EA4 /* Frameworks */,
+				905665351EC45952009F0EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905665391EC45952009F0EA4 /* PBXTargetDependency */,
+			);
+			name = RMUIWebViewTests;
+			productName = RMUIWebViewTests;
+			productReference = 905665371EC45952009F0EA4 /* RMUIWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		905665411EC45952009F0EA4 /* RMUIWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905665511EC45952009F0EA4 /* Build configuration list for PBXNativeTarget "RMUIWebViewUITests" */;
+			buildPhases = (
+				9056653E1EC45952009F0EA4 /* Sources */,
+				9056653F1EC45952009F0EA4 /* Frameworks */,
+				905665401EC45952009F0EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905665441EC45952009F0EA4 /* PBXTargetDependency */,
+			);
+			name = RMUIWebViewUITests;
+			productName = RMUIWebViewUITests;
+			productReference = 905665421EC45952009F0EA4 /* RMUIWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		905665161EC45952009F0EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = rm;
+				TargetAttributes = {
+					9056651D1EC45952009F0EA4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					905665361EC45952009F0EA4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9056651D1EC45952009F0EA4;
+					};
+					905665411EC45952009F0EA4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9056651D1EC45952009F0EA4;
+					};
+				};
+			};
+			buildConfigurationList = 905665191EC45952009F0EA4 /* Build configuration list for PBXProject "RMUIWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 905665151EC45952009F0EA4;
+			productRefGroup = 9056651F1EC45952009F0EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9056651D1EC45952009F0EA4 /* RMUIWebView */,
+				905665361EC45952009F0EA4 /* RMUIWebViewTests */,
+				905665411EC45952009F0EA4 /* RMUIWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9056651C1EC45952009F0EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905665311EC45952009F0EA4 /* LaunchScreen.storyboard in Resources */,
+				905665551EC45BB5009F0EA4 /* index.html in Resources */,
+				9056652E1EC45952009F0EA4 /* Assets.xcassets in Resources */,
+				905665581EC45C21009F0EA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905665351EC45952009F0EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905665401EC45952009F0EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9056651A1EC45952009F0EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905665291EC45952009F0EA4 /* ViewController.m in Sources */,
+				905665261EC45952009F0EA4 /* AppDelegate.m in Sources */,
+				905665231EC45952009F0EA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905665331EC45952009F0EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9056653C1EC45952009F0EA4 /* RMUIWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9056653E1EC45952009F0EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905665471EC45952009F0EA4 /* RMUIWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		905665391EC45952009F0EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9056651D1EC45952009F0EA4 /* RMUIWebView */;
+			targetProxy = 905665381EC45952009F0EA4 /* PBXContainerItemProxy */;
+		};
+		905665441EC45952009F0EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9056651D1EC45952009F0EA4 /* RMUIWebView */;
+			targetProxy = 905665431EC45952009F0EA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9056652F1EC45952009F0EA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905665301EC45952009F0EA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		905665561EC45C21009F0EA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905665571EC45C21009F0EA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		905665491EC45952009F0EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9056654A1EC45952009F0EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9056654C1EC45952009F0EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RMUIWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RongMei.RMUIWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9056654D1EC45952009F0EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RMUIWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RongMei.RMUIWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9056654F1EC45952009F0EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RMUIWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RongMei.RMUIWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMUIWebView.app/RMUIWebView";
+			};
+			name = Debug;
+		};
+		905665501EC45952009F0EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RMUIWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RongMei.RMUIWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMUIWebView.app/RMUIWebView";
+			};
+			name = Release;
+		};
+		905665521EC45952009F0EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RMUIWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RongMei.RMUIWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RMUIWebView;
+			};
+			name = Debug;
+		};
+		905665531EC45952009F0EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RMUIWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RongMei.RMUIWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RMUIWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		905665191EC45952009F0EA4 /* Build configuration list for PBXProject "RMUIWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905665491EC45952009F0EA4 /* Debug */,
+				9056654A1EC45952009F0EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9056654B1EC45952009F0EA4 /* Build configuration list for PBXNativeTarget "RMUIWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9056654C1EC45952009F0EA4 /* Debug */,
+				9056654D1EC45952009F0EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9056654E1EC45952009F0EA4 /* Build configuration list for PBXNativeTarget "RMUIWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9056654F1EC45952009F0EA4 /* Debug */,
+				905665501EC45952009F0EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		905665511EC45952009F0EA4 /* Build configuration list for PBXNativeTarget "RMUIWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905665521EC45952009F0EA4 /* Debug */,
+				905665531EC45952009F0EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 905665161EC45952009F0EA4 /* Project object */;
+}
